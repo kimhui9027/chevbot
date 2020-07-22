@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NzM1NDA0MTIxNjA3MzcyODMw.Xxfwgw.x-hl7qx5hKpKPa2582nonzc7Pp0';
+const token = process.env.token;
 const welcomeChannelName = "입장-퇴장";
 const byeChannelName = "입장-퇴장";
 const welcomeChannelComment = "님! Team.kimhui9027에 오신 것을 환영합니다!";
