@@ -8,7 +8,7 @@ const byeChannelComment = "님이 Team.kimhui9027에서 나가신다니 아쉽�
 
 client.on('ready', () => {
   console.log('chanEvent bot has enabled');
-  client.user.setActivity('"-이벤트 도움말, -event help"을 쳐서 도움말을 볼 수 있습니다.', {type : 'PLAYING'});
+  client.user.setActivity('-이벤트, -event', {type : 'PLAYING'});
 });
 
 client.on("guildMemberAdd", (member) => {
